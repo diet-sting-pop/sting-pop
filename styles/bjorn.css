@@ -1,0 +1,75 @@
+.bjorn-box {
+    position: fixed;
+    top: 65%;
+    left: 82%;
+    width: 30vh;
+    height: calc(30vh + 18px);
+    align-items: center;
+}
+
+.bjorn-bar {
+    width: 100%;
+    height: 16px;
+    margin-top: -3px;
+    margin-left: -3px;
+    position:relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 15;
+}
+
+.bjorn-content {
+    margin-top: -1px;
+}
+
+.speech-bubble {
+    z-index: 100;
+    position: fixed;
+    left: 82%;
+    width: 30vh;
+}
+
+#bjorn-box-2 {
+    top: 35%;
+    left: 60%;
+    width: 50vh;
+    height: calc(50vh + 18px);
+}
+
+#bjorn-box-mini {
+    position: fixed;
+    top: 65%;
+    left: 82%;
+    width: 30vh;
+    height: calc(15vh + 18px);
+    align-items: center;
+}
+
+#bjorn-box-2 {
+    top: 52%;
+    left: 45%;
+    width: 35vh;
+    height: calc(35vh + 18px);
+}
+
+#sb-1 {
+    top: 58%;
+}
+
+#sb-2 {
+    top: 51%;
+}
+
+#sb-3 {
+    top: 44%;
+}
+
+#sb-4 {
+    top: 37%;
+}
+
+#sb-5 {
+    top: 10%;
+    left: 25%;
+}

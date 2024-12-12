@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sting Pop</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/canvas.css">
+        <link rel="stylesheet" href="styles/bjorn.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+              integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+              crossorigin=""/>
+    </head>
+    <body>
+        <div class="mainbox window">
+            <div class="topbar window">
+                <a href="index.html">
+                    <img src="resources/window/main%20window%20title.png" class="windowTitle">
+                </a>
+                <img src="resources/window/close.png" class="windowButton">
+            </div>
+            <div class="windowContainer" id="main-window">
+
+                <div class="windowContent">
+                    <div class="titleCard">
+                        <img class="stingPop" src="resources/stingpop.png"/>
+                        <div class="announcementBox">
+                            <marquee class="announcement">
+                                <span >This page is not ready yet !</span>
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="contentFeed">
+                        <div class="sectionBox">
+                            <img src="resources/wip.gif" style="width: 20%; margin-left: 40%">
+                        </div>
+                        <div class="sectionTitleBox">
+                            <span class="sectionTitle">What will be on this page ?</span>
+                        </div>
+                        <div class="sectionBox textSectionBox">
+                            <p class="sectionText">
+                                This page will host descriptions of the differents characters I play/played, a summary of my campaigns and an overview of the Call Of Cthulhu campaign I'm writing and DMing right now.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="bjorn-root"></div>
+
+
+        <canvas id="soda" width="1920" height="1080"></canvas>
+        <script src="scripts/wip.js"></script>
+        <script src="scripts/bjornOVision.js"></script>
+        <script src="scripts/canvas.js"></script>
+        <script src="scripts/menus.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+                integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+                crossorigin=""></script>
+    </body>
+</html>
