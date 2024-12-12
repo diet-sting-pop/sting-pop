@@ -25,7 +25,7 @@ function addMap() {
 function loadRandomTownWidget(name, country, population, img, link) {
     return "<div style='display: table'>\n" +
         "       <div class='header'>\n" +
-        "           <u>Random town</u>\n" +
+        "           <u>Random town (not working)</u>\n" +
         "       </div>\n" +
         "       <div class='row country-data'>\n" +
         "           <p class='cell'><u>Name</u> : " + name + "</p>\n" +

@@ -1,4 +1,4 @@
-const bjornMax = 4;
+const bjornMax = 5;
 const bjornList = [];
 
 function getBjornBox(bjornDex, bjornId) {
@@ -38,6 +38,7 @@ function bjornClick() {
     if (index < 6) {
         $("#bjorn-root").append("<img class='speech-bubble' id='sb-"+index+"' src='resources/bjornOVision/text/sb-"+index+".png'/>")
         if (index === 4) {
+            $("#map").css("display", "none")
             $("#bjorn-box-1").css("display", "unset").css("width", "80vh").css("height", "calc(80vh + 18px)").css("top", "20%").css("left", "10%")
         }
         if (index === 5) {
