@@ -66,7 +66,7 @@ function getMainLeftMenuHtml() {
         "            <a class='cell' href='guestbook.html'><img class='button' src='resources/menu/button7.png'/></a>\n" +
         "        </div>\n" +
         "        <div class='row'>\n" +
-        "            <a class='cell' href='credit.html'><img class='button' src='resources/menu/button8.png'/></a>\n" +
+        "            <a class='cell' href='photography.html'><img class='button' src='resources/menu/button8.png'/></a>\n" +
         "            <a class='cell' href='about.html'><img class='button' src='resources/menu/button3.png'/></a>\n" +
         "        </div>\n" +
         "    </div>\n" +
