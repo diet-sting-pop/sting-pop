@@ -1,0 +1,30 @@
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+h2,
+label,
+textarea,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+h2 {
+    background-color: #DF87FF;
+    font-family: "Segoe Print", sans-serif;
+    font-size: 3.5vh;
+    color: white;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.message {
+    padding: 0.25vh 3vh 2vh;
+}
