@@ -82,6 +82,9 @@ function getMainRightMenuHtml() {
         "                        <div class='row'>\n" +
         "                            <p class='cell'><u>12/2024</u> : I am finally working on my own website!</p>\n" +
         "                        </div>\n" +
+        "                        <div class='row'>\n" +
+        "                            <p class='cell'><u>08/2025</u> : Yikes ! Let's just say that life got in the way, but I'm back working on Sting-Pop !</p>\n" +
+        "                        </div>\n" +
         "                    </div>\n" +
         "                    <br>\n" +
         "                    <br>\n" +
